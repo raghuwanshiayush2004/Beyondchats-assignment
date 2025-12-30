@@ -3,7 +3,7 @@
 A complete implementation of the assignment with Laravel backend, NodeJS automation script, and React frontend.
 
 ## Live Link
-
+```
 ## 📁 Project Structure
 
 beyondchats-assignment/
@@ -11,11 +11,9 @@ beyondchats-assignment/
 ├── node-script/ # NodeJS Automation Script (Phase 2)
 ├── frontend/ # React + Vite Frontend (Phase 3)
 └── README.md # This file
+```
 
-## 🚀 Live Demo
-
-[Frontend URL](http://localhost:3000) | [Backend API](http://localhost:8000/api)
-
+```
 ## 📊 Architecture Diagram
 
 User Browser
@@ -34,7 +32,7 @@ NodeJS Script
 └── Content Update
 ↓
 Database (MySQL/SQLite)
-
+```
 ## 🔧 Setup Instructions
 
 ### Prerequisites

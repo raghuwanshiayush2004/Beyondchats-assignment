@@ -52,12 +52,13 @@ cd backend
 ## Install dependencies
 
 composer install
-
+```
 ## Configure environment
 
 cp .env.example .env
 php artisan key:generate
-
+```
+```
 ## Update .env with database credentials
 
 env
@@ -67,7 +68,7 @@ DB_PORT=3306
 DB_DATABASE=beyondchats
 DB_USERNAME=root
 DB_PASSWORD=
-
+```
 ## Run migrations
 
 php artisan migrate
@@ -78,8 +79,6 @@ php artisan serve --port=8000
 
 ## Initialize articles
 
-Visit <http://localhost:8000/api/articles/scrape> to scrape initial articles
-
 Node Script Setup (Phase 2)
 Navigate to node-script directory:
 
@@ -88,12 +87,12 @@ cd node-script
 ## Install dependencies
 
 npm install
-
+```
 ## Configure environment
 
 cp .env.example .env
 Add your OpenAI API key to .env
-
+```
 ## Run the script
 
 node index.js

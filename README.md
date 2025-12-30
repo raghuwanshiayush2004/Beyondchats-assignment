@@ -2,7 +2,7 @@
 
 A complete implementation of the assignment with Laravel backend, NodeJS automation script, and React frontend.
 
-## Live Link
+## Live Link: https://beyondchats-git-main-raghuwanshiayush2004s-projects.vercel.app/
 ```
 ## 📁 Project Structure
 
